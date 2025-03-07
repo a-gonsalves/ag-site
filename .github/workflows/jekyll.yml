@@ -9,11 +9,11 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # This gives the workflow permissions to write to the repository
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # Fetch all history for .git metadata
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
