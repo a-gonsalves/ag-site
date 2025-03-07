@@ -18,14 +18,26 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ag-site
+title: Anthony Gonsalves
 email: agonsalv@icloud.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my awesome site!
+  Welcome to Anthony's Professional Insights
+  
+  Navigating the complex landscape of technology management and organizational transformation
+  
+  This blog shares my journey and expertise in:
+  - Product, Program, and Service Management
+  - Enterprise Transformation
+  - Building High-Performance Teams
+  - Mentoring and Coaching
+  
+  Join me as I explore best practices, share real-world experiences, and offer actionable insights to help you excel in the dynamic world of tech leadership. Whether you're a seasoned manager or an aspiring leader, you'll find valuable perspectives on driving innovation, fostering team excellence, and navigating organizational change.
+  Let's grow together and shape the future of technology management.
 baseurl: "/ag-site" # the subpath of your site, e.g. /blog
 url: "https://a-gonsalves.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: NA
-github_username:  TBD
+twitter_username: a_gonsalves2
+github_username:  A-Gonsalves
+bluesky_username: agonsalves.bsky.social
 
 # Build settings
 markdown: kramdown
