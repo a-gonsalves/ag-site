@@ -37,7 +37,7 @@ baseurl: "/ag-site" # the subpath of your site, e.g. /blog
 url: "https://a-gonsalves.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: a_gonsalves2
 github_username:  A-Gonsalves
-bluesky_username: agonsalves.bsky.social
+bluesky: agonsalves.bsky.social
 
 # Build settings
 markdown: kramdown
