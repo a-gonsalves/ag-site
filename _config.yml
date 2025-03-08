@@ -14,16 +14,7 @@ title: Anthony Gonsalves
 slogan: 'A Flexible Theme for Jekyll'
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description:
-<br>Welcome to Anthony's Professional Insights</br>
-<br>Navigating the complex landscape of technology management and organizational transformation</br>
-<br>This blog shares my journey and expertise in -
-  - Product, Program, and Service Management
-  - Enterprise Transformation
-  - Building High-Performance Teams
-  - Mentoring and Coaching</br>
-<br>Join me as I explore best practices, share real-world experiences, and offer actionable insights to help you excel in the dynamic world of tech leadership. Whether you're a seasoned manager or an aspiring leader, you'll find valuable perspectives on driving innovation, fostering team excellence, and navigating organizational change.</br>
-<br>Let's grow together and shape the future of technology management.</br>
+description:  'Welcome to Anthonys Professional Insights! Navigating the complex landscape of technology management and organizational transformation.  This blog shares my journey and expertise in, Product, Program, and Service Management, Enterprise Transformation, Building High-Performing Teams and Mentoring and Coaching. Join me as I explore best practices, share real-world experiences, and offer actionable insights to help you excel in the dynamic world of tech leadership. Whether you are a seasoned manager or an aspiring leader, you will find valuable perspectives on driving innovation, fostering team excellence, and navigating organizational change.  Lets grow together and shape the future of technology management.'
 
 # The credits show up in the includes/_footer.html – It would be nice of you to leave a link to Phlow or Feeling Responsive as a thank you :)
 credits: '<p>Created with &hearts; by <a href="http://phlow.de/">Phlow</a> with <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> based on <a href="http://phlow.github.io/feeling-responsive/">Feeling Responsive</a>.</p>'
