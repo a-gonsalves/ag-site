@@ -9,7 +9,7 @@ source "https://rubygems.org"
 # Happy Jekylling!
 
 # use jekyll 4.x
-gem "jekyll", "~> 4.4.1"
+gem "jekyll" #, "~> 4.4.1"
 
 # required for jekyll with ruby 3+
 gem "webrick", "~> 1.8"
