@@ -1,4 +1,4 @@
-name: Build and deploy Jekyll 4.x site to GitHub Pages
+name: Build and deploy Jekyll site to GitHub Pages
 
 on:
   push:
@@ -20,10 +20,8 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2'  # Use a stable Ruby version that's well-tested with GitHub Actions
-          bundler: '2.4.10'    # Specify a bundler version explicitly
-          bundler-cache: true    # Uses caching for faster setup
-
+          ruby-version: '3.3.4'
+          bundler-cache: true
 
       - name: Install dependencies
         run: |
