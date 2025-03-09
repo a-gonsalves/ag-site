@@ -2,11 +2,13 @@ name: Build and deploy Jekyll site to GitHub Pages
 
 on:
   push:
+  # Runs on pushes targeting the default branch
     branches:
       - main  # or master, depending on your default branch name
   workflow_dispatch:  # Allows manual triggering from the GitHub UI
 
 jobs:
+  #Build and deployment job combined
   build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
@@ -14,13 +16,11 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0  # Fetch all history for .git metadata
           
       - name: Setup Ruby
-        uses: ruby/setup-ruby@v1
+        uses: ruby/setup-ruby@4a9ddd6f338a97768b8006bf671dfbad383215f4
         with:
-          ruby-version: '3.3.4'
+          ruby-version: '3.1'
           bundler-cache: true
 
       - name: Install dependencies
