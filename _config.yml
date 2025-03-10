@@ -4,6 +4,7 @@ remote_theme: Phlow/feeling-responsive  # This pulls the theme from GitHub
 
 # Your existing configuration looks good overall, but you might want to update:
 # Make sure your baseurl is correct 
+url: 'https://a-gonsalves.github.io'
 baseurl: '/ag-site'
 
 # Ensure these collections are added if you're using the portfolio feature
