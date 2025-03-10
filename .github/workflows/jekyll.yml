@@ -1,18 +1,14 @@
 name: Build and deploy Jekyll site to GitHub Pages
-
 on:
   push:
-  # Runs on pushes targeting the default branch
     branches:
-      - main  # or master, depending on your default branch name
-  workflow_dispatch:  # Allows manual triggering from the GitHub UI
-
+      - main
+  workflow_dispatch:
 jobs:
-  #Build and deployment job combined
   build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # This gives the workflow permissions to write to the repository
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -22,10 +18,10 @@ jobs:
         with:
           ruby-version: '3.1'
           bundler-cache: true
-
+          
       - name: Install dependencies
         run: |
-          bundle install 
+          bundle install
           
       - name: Build the site
         run: |
@@ -37,7 +33,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_site       # Jekyll's default output directory
-          publish_branch: gh-pages   # Branch to deploy to
+          publish_dir: ./_site
+          publish_branch: gh-pages
           full_commit_message: ${{ github.event.head_commit.message }}
-          force_orphan: true         # Make the gh-pages branch a single commit with only the built files
+          force_orphan: true
