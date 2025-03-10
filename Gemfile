@@ -8,6 +8,7 @@ gem "jekyll-paginate"
 gem "jekyll-sitemap"
 gem "jekyll-feed"
 gem "jekyll-seo-tag"
+gem "jekyll-theme-primer"
 
 # Optional - uncomment if you need these
 # gem "jekyll-gist"
